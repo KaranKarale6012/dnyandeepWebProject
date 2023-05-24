@@ -1,0 +1,28 @@
+body{
+    position: relative;
+}
+.slider_Info h1{
+    padding: 4rem 4rem 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.slider_Info h1 span{
+    color: #FC4F00;
+}
+.mySlider {
+    width: 100%; 
+    height: 55vh;
+  }
+  
+  .slider_img {
+    background-position: center;
+    background-size: cover;
+    width: 375px;
+    height: 375px;
+  }
+  
+  .slider_img img {
+    display: block;
+    width: 100%;
+  }
+  

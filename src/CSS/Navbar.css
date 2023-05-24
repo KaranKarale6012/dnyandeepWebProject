@@ -1,0 +1,123 @@
+.nav-bar {
+  width: 100%;
+  padding: 20px;
+  background: #FC4F00;
+  height: 80px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navbar-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #FC4F00;
+  color: #ffff;
+  height: 100%;
+}
+.header-tab-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+.header-tab-container > a{
+  color: #fff;
+}
+.nav-bar-label{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+ width: 200px;
+ height: auto;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: center;
+ position: absolute;
+ top: 40px;
+ left: 0;
+ opacity: 0;
+ visibility: hidden;
+ background:#fff;
+  box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+.header-tab-container:hover  .menu{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+
+}
+.menu-item{
+  width: 100%;
+  margin: 10px 0;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-menu-bar{
+  display: none;
+  width: 40px;
+  height: 40px;
+  color: #e97f4d;
+  background: #ffff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width:700px){
+  .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  }
+.navbar-container{
+  flex-direction: column;
+  position: absolute;
+  height: auto;
+  top: 60px;
+  left: 0;
+  height:0;
+  
+  visibility: hidden;
+}
+.navbar-container {
+  transition: all 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+.navbar-container.show-menu{
+  transition: all 0.3s ease;
+  visibility: visible;
+  opacity: 1;
+  height: calc(100vh - 60px);
+}
+.nav-bar-label{
+margin: 10px 0;
+}
+.header-tab-container{
+  flex-direction: column;
+}
+.menu{
+  position:static;
+  height: 0px;
+}
+.header-tab-container:hover  .menu{
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+.nav-menu-bar {
+  display: flex;
+}
+}

@@ -1,0 +1,110 @@
+.school-info-1 {
+    display: flex;
+   
+    justify-content: space-around;
+    padding: 2rem 0;
+
+}
+ h1{
+    padding: 4rem 4rem 2rem;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    
+}
+ h1 span{
+    color: #FC4F00;
+}
+.school-info-1 img{
+    width: 600px;
+    border-radius: 25px;
+}
+.school-info-1 p{
+    width: 40%;
+}
+.school-info-2 {
+    background-color: #f7f7f7;
+}
+.vision-mission-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vision-mission-info .vision-info{
+    padding: 2rem;
+   width: 50%;
+}
+.vision-mission-info .vision-info h2{
+    color: #FC4F00;
+}
+.vision-mission-info .vision-img img{
+    padding: 2rem 0;
+    width: 600px;
+    border-radius: 200px;
+}
+.vision-mission-info .vision-info .mission{
+    padding: 1.5rem 0;
+}
+
+.committe_tables table, th,td{
+    padding: 1rem;
+    border: 1px solid #FC4F00;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+.second-table{
+    background-color: #f7f7f7;
+}
+.chairman{
+    background-color: #f7f7f7;
+}
+
+.message{
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+.message .chairman_img h2{
+   font-size: 2.2rem;
+   padding: 2rem 0 5rem ;
+   color: #333;
+}
+.message .chairman_img h3{
+    
+    padding:1rem 7rem;
+    color: #333;
+ }
+
+
+
+.message .chairman_img img {
+    width: 500px;
+
+}
+.message .chairman_message{
+    width: 50%;
+}
+
+.message .chairman_message p{
+    padding: 2.5rem 0 0;
+    letter-spacing: 1.5px;
+}
+
+.Infra{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Infra  th{
+    background-color: #FC4F00;
+    color: #f7f7f7;
+
+}
+.Infra table, th,td{
+
+    padding: 1rem;
+    border: 1px solid #333;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}

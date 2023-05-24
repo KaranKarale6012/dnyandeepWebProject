@@ -1,0 +1,45 @@
+.latest{
+    background-color:#F7F7F7;
+}
+
+.latest h1{
+    padding: 4rem 4rem 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.latest h1 span{
+    color: #FC4F00;
+}
+.Join_cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+}
+.Join_cards .card{
+    width: 200px;
+    background-color: #fff;
+}
+.Join_cards .card p{
+    color: #fff;
+    font-weight: bold;
+   margin: 1rem auto 0;
+   padding: 5px;
+    background-color: #FC4F00;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 80px;
+}
+.Join_cards .card h2{
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.card li{
+    text-align: center;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,26 @@
+
+.info h1{
+    padding: 4rem 4rem 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.info h1 span{
+    color: #FC4F00;
+}
+.Info_para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Info_para img{
+    width: 700px;
+    height: 60vh;
+}
+.Info_para p{
+  
+    word-spacing: 10px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
