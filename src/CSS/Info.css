@@ -24,3 +24,20 @@
     font-weight: bold;
     font-size: 1.3rem;
 }
+@media (max-width:468px){
+    .Info_para{
+        display: block;
+    }
+    .Info_para img{
+        width: 350px;
+        height: 40vh;
+    }
+    .Info_para p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.1rem;
+        padding: 1rem;
+       
+    }
+    
+}

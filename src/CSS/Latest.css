@@ -43,3 +43,16 @@
     text-align: center;
     padding-bottom: 2rem;
 }
+
+
+@media (max-width:468px){
+
+    .Join_cards{
+        display:block;
+       padding: 3rem ;
+       
+    }
+    .latest h1{
+        font-size: 1.8rem;
+    }
+}

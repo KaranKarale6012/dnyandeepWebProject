@@ -29,3 +29,31 @@
     font-weight: bold;
    text-align: center;
 }
+
+@media (max-width:468px){
+    .Footer_Info{
+        display: block;
+        padding: 2rem;
+    }
+    .Footer_Info .Footer_vision{
+        width: 100%;
+        padding: 1rem;
+    }
+    .Footer_Info .Footer_address{
+        width: 100%;
+        padding: 1rem;
+    }
+    
+.Footer .copyright p{
+    padding: 0.5rem;
+}
+.Quick_links{
+padding: 1rem;
+}
+.Follow_Us {
+padding: 1rem;
+}
+.Footer hr{
+    width: 80%;
+}
+}

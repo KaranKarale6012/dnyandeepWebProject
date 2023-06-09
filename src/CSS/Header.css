@@ -14,10 +14,38 @@
 .header_info h4{
     font-size: 2rem;
     color: #FC4F00;
+    text-align: center;
 }
 .header_info h3{
     color: #333;
     text-align: center;
 }
 
+marquee {
+    padding: 0.5rem;
+    background-color: #FC4F00;
+    
+}
+marquee a{
+    color: #fff;
+}
 
+
+@media(max-width:468px) {
+    .header{
+        padding: 5px;
+    }
+   img{
+   
+    width: 15%;
+   }
+   .header_info h4{
+    font-size: 1.3rem;
+   }
+   .header_info h2{
+    font-size: 0.9rem;
+   }
+   .header_info h3{
+    font-size: 0.9rem;
+   }
+}

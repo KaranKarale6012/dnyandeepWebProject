@@ -1,0 +1,58 @@
+
+
+.Sub_career .career-info h3{
+    padding:1rem 0 ;
+}
+.Sub_career .career-info ul li{
+    padding: 3px;
+}
+.Sub_career .career-info{
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 90%;
+   display: flex;
+   justify-content: space-around;
+  
+   box-shadow: 20px  20px 20px 20px rgb(228, 227, 227);
+ 
+}
+.Sub_career .career-info .ul-1{
+    padding: 2rem;
+    width: 40%;
+}
+.Sub_career .career-info .ul-2{
+    width: 40%;
+    padding: 2rem;
+}
+
+
+.resume ul {
+    width: 90%;
+   text-align: center;
+   box-shadow: 20px  20px 20px 20px rgb(228, 227, 227);
+   border-radius: 30px;
+    margin: 1rem auto 3rem;
+    padding: 2rem;
+ 
+}
+.resume ul li{
+    padding: 7px;
+}
+
+@media(max-width:468px){
+    .Sub_career .career-info{
+        display: block;
+    }
+    .Sub_career .career-info .ul-1{
+        width: 100%;
+        padding: 1rem;
+    }
+    .Sub_career .career-info .ul-2{
+        width: 100%;
+        padding: 1rem;
+    }
+    .resume ul {
+        width: 100%;
+        padding: 1rem;
+    }
+}

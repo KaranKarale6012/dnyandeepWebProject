@@ -22,6 +22,16 @@ import Principal from './About_us/Principal';
 import Director from "./About_us/Director"
 import Infrastructure from './Information_desk/Infrastructure';
 import Student_enroll from './Information_desk/Student_enroll';
+import Staff from './Information_desk/Staff';
+import Public from './Information_desk/Public';
+import Library from './Facility/Library';
+import Sports from "./Facility/Sports"
+import Uniform from './Facility/Uniform';
+import School_time from './Facility/School_time';
+import Procedure from './Admissions/Procedure';
+import Fee_structre from './Admissions/Fee_structre';
+import Events from './Galleries/Events';
+
 function Navbar() {
   return (
     <Router>
@@ -46,6 +56,15 @@ function Navbar() {
           <Route path='/director' element={<Director/>} />
           <Route path='/infrastructure' element={<Infrastructure/>}/>
           <Route path='/enroll' element={<Student_enroll/>} />
+          <Route path='/staff' element={<Staff/>}/>
+          <Route path='/public' element={<Public/>} />
+          <Route path='/library' element={<Library/>} />
+          <Route path='/sports' element={< Sports/>} />
+          <Route path='/uniform' element={<Uniform/>} />
+          <Route path='/timing'  element={<School_time/>}/>
+          <Route path='/procedure' element={<Procedure/>}/>
+          <Route path='/fee' element={<Fee_structre/>} />
+          <Route path='/events' element={< Events/>} />
         </Routes>
 
       </Fragment>

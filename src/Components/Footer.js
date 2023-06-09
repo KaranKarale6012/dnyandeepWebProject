@@ -28,7 +28,7 @@ function Footer() {
                     <li>Privacy Policy</li>
                  </ul>
                 </div>
-                <div className='Follow Us'>
+                <div className='Follow_Us'>
                 <ul>
                     <li>Facebook</li>
                     <li>Twitter</li>
@@ -40,7 +40,7 @@ function Footer() {
                 </div>
                 <hr />
                 <div className='copyright'>
-                    <p>All rights reserved by Dnandeep International School and Junior College.</p>
+                    <p>All rights reserved by Dnyandeep International School and Junior College.</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,9 @@
+/* ********************SCHOOL_INFO****************** */
+
+
+
 .school-info-1 {
     display: flex;
-   
     justify-content: space-around;
     padding: 2rem 0;
 
@@ -25,6 +28,7 @@
 .school-info-2 {
     background-color: #f7f7f7;
 }
+
 .vision-mission-info {
     display: flex;
     align-items: center;
@@ -46,6 +50,41 @@
     padding: 1.5rem 0;
 }
 
+
+@media (max-width:468px){
+   .school-info-1{
+    display: block;
+   }
+
+   .school-info-1 img{
+    width: 100%;
+    height: 32vh;
+    padding: 0 1rem 1rem;
+   
+}
+h1{
+    font-size: 1.8rem;
+}
+.school-info-1 p{
+    width: 100%;
+    padding: 1rem;
+}
+.vision-mission-info {
+    display: block;
+}
+.vision-mission-info .vision-info{
+    padding: 2rem;
+   width: 100%;
+}
+.vision-mission-info .vision-img img{
+    width: 100%;
+}
+  
+}
+
+/* ***************COMMITTE************** */
+
+
 .committe_tables table, th,td{
     padding: 1rem;
     border: 1px solid #FC4F00;
@@ -55,6 +94,23 @@
 .second-table{
     background-color: #f7f7f7;
 }
+
+@media (max-width:468px){
+     .committe_tables table{
+        font-size: 10px;
+        
+     }
+     .committe_tables table th{
+        padding: 3px;
+     }
+     .committe_tables table td{
+        padding: 3px;
+     }
+  
+}
+
+
+/* *******************CHAIRMAN***************** */
 .chairman{
     background-color: #f7f7f7;
 }
@@ -91,6 +147,33 @@
     letter-spacing: 1.5px;
 }
 
+
+
+@media (max-width:468px){
+    .message{
+        display: block;
+    }
+    .message .chairman_img img {
+        width: 350px;
+    
+    }
+    .message .chairman_message{
+        width: 100%;
+        padding: 1rem;
+        text-align: justify;
+        
+    }
+    .message .chairman_img h3{
+        padding: 1rem;
+        text-align: center;
+    }
+   
+}
+
+
+/* ***************************INFRA********************** */
+
+
 .Infra{
     width: 60%;
     margin: 0 auto;
@@ -108,3 +191,378 @@
     margin: 2rem auto;
     border-collapse: collapse;
 }
+
+@media (max-width:468px){
+
+    .Infra{
+        width: 100%;
+      
+    }
+    .Infra table{
+        font-size: 10px;
+        margin: 1rem;
+       
+    }
+    .Infra table th{
+        padding: 3px;
+    }
+    .Infra table td{
+        padding: 3px;
+    
+    }
+}
+
+/* ********************ENROLL********************* */
+
+
+.enroll_tables {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.enroll_tables .primary{
+    width: 40%;
+    padding: 2rem;
+    border: 1px solid #FC4F00;
+    margin-bottom: 2rem;
+    background-color: #f7f7f7;
+   
+}
+.enroll_tables .primary h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.enroll_tables .secondary{
+    width: 40%;
+    padding: 2rem;
+    border: 1px solid #FC4F00;
+    margin-bottom: 2rem;
+    background-color: #f7f7f7;
+   
+}
+.enroll_tables .secondary h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.enroll_tables table, th,td{
+    padding: 1rem;
+    border: 1px solid #FC4F00;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+.enroll_tables th{
+    background-color: #FC4F00;
+    color: #f7f7f7;
+}
+
+
+@media(max-width:468px){
+    
+.enroll_tables{
+    display: block;
+}
+.enroll_tables .primary{
+    width: 100%;
+}
+.enroll_tables .secondary{
+    width: 100%;
+}
+.enroll_tables table{
+    font-size: 12px;
+}
+}
+
+/* ****************************STAFF********************** */
+
+
+.staff{
+    background-color: #f7f7f7;
+}
+.staff-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-staff{
+   padding: 5rem;
+    display:flex;
+}
+.sub-staff  img{
+
+    width: 170px;
+    border-radius: 20px;
+}
+.sub-staff .staff-info{
+    padding: 0 5rem;
+}
+.sub-staff .staff-info h4{
+    letter-spacing: 1.2px;
+    padding-bottom:10px ;
+}
+
+.staff_tables table, th,td{
+    padding: 1rem 2rem;
+    border: 1px solid #FC4F00;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+@media(max-width:468px){
+    .staff-card{
+        display: block;
+    }
+    .sub-staff{
+        display: block;
+       margin: 0 auto;
+      padding: 2rem 4rem;
+      
+    }
+    .sub-staff .staff-info{
+        padding: 1rem;
+    }
+}
+
+
+/* ********************LIBRARY********************* */
+.library{
+    background-color: #f7f7f7;
+}
+
+.library-img .library-subImg{
+justify-content: space-around;
+ display: flex;
+padding: 2rem;
+
+    
+}
+.library-img .library-subImg img{
+    width: 20%;
+    border-radius: 10px;
+}
+
+@media(max-width:468px){
+    .library-img .library-subImg{
+        display: block;
+        padding: 0;
+
+    }
+    .library-img .library-subImg img{
+        display: block;
+        width: 70%;
+        padding:1rem ;
+        margin: 0 auto;
+    }
+}
+
+/* ********************SPORTS**************** */
+
+
+
+
+/* *****************Uniform******************* */
+
+.uniform {
+    background-color: #f7f7f7;
+}
+.uniform .sub-uniform {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+   
+
+}
+.uniform .sub-uniform .uniform-img img{
+    width:100%;
+    padding: 2rem 4rem;
+}
+
+.uniform .sub-uniform .uniform-info{
+    width: 30% ;
+    padding: 2rem 4rem;
+ 
+}
+
+@media (max-width:468px){
+    .uniform .sub-uniform {
+        display: block;
+    }
+    .uniform .sub-uniform .uniform-info{
+        width: 100%;
+    }
+}
+
+
+/* *****************SCHOOL_TIMING******************** */
+
+
+.timing_tables table, th,td{
+    padding: 1rem ;
+    border: 1px solid #FC4F00;
+    margin: 2rem auto;
+    border-collapse: collapse;
+   
+}
+.timing_tables table{
+    width: 60%;
+    text-align: center;
+}
+.timing_tables table th{
+    background-color: #FC4F00;
+    color: #f7f7f7;
+}
+.Timing{
+    background-color: #f7f7f7;
+   
+}
+
+@media (max-width:468px){
+    .timing_tables table{
+        width: 80%;
+    }
+}
+/* ***********ADMISSION*********** */
+.Admission .Admission-open{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.Admission .Admission-open img{
+width: 50%;
+height: 80vh;
+}
+.Admission .Admission-open h2{
+ padding: 2rem 2rem 1rem;
+}
+.Admission .Admission-open ul {
+    padding: 1rem ;
+}
+.Admission .Admission-open ul li {
+    padding: 0.3rem ;
+    font-weight: 500;
+    
+}
+
+.AgeLimit hr{
+    border-top: 4px solid #FC4F00;
+    width:70% ;
+    margin:2rem auto 1rem ;
+    border-radius: 15px;
+}
+.AgeLimit .AgeTables {
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem;
+}
+.AgeLimit .AgeTables table{
+    border-collapse: collapse;
+    width: 30%;
+       
+}
+
+@media (max-width:468px){
+    .Admission .Admission-open{
+        display: block;
+    }
+    .Admission .Admission-open img{
+        width: 100%;
+    }
+    .AgeLimit .AgeTables {
+        display: block;
+    }
+    .AgeLimit hr{
+        width: 80%;
+    }
+    .AgeLimit .AgeTables table{
+        width: 100%;
+       margin:0 0 4rem ;
+    }
+}
+
+/* ****************FEE STRUCTURE ******************** */
+ 
+.Fee{
+    background-color:#f7f7f7;
+}
+.Fee img{
+    display: block;
+    margin: 2rem auto;
+    width: 60%;
+}
+
+
+/* **************************CURRICULUM********************** */
+
+.curriculum img{
+    display: block;
+    margin: 4rem auto 3rem;
+    width: 40%;
+    opacity: 0.7;
+    height: 20vh;
+   
+    
+}
+.curriculum ul{
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+}
+.curriculum ul li{
+    font-weight: 500;
+    padding: 10px;
+    letter-spacing: 1.3px;
+}
+
+@media(max-width:468px){
+    .curriculum img{
+        width: 80%;
+    }
+    .curriculum ul{
+        width: 100%;
+    }
+}
+
+/* *********************EVENTS********************* */
+
+body{
+    position: relative;
+}
+.Event_Info h1{
+    padding: 4rem 4rem 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.Event_Info h1 span{
+    color: #FC4F00;
+}
+.Event-slider {
+    width: 100%; 
+    height: 55vh;
+    z-index: -1;
+  }
+  
+  .Events-img {
+    background-position: center;
+    background-size: cover;
+    width: 375px;
+    height: 375px;
+  }
+  
+  .Events-img img {
+    display: block;
+    width: 100%;
+  }
+  
+
+  @media (max-width:468px){
+    .Event_Info h1{
+        font-size: 1.8rem;
+        padding: 2rem ;
+    }
+  .Events-img img{
+    width: 120%;
+    padding: 5rem;
+  }
+  }

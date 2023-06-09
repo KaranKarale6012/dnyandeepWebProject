@@ -26,3 +26,15 @@ body{
     width: 100%;
   }
   
+
+  @media (max-width:468px){
+    .slider_Info h1{
+      font-size: 1.8rem;
+      padding: 2rem ;
+    }
+    .slider_img img{
+      width: 120%;
+     padding: 5rem;
+    }
+   
+  }

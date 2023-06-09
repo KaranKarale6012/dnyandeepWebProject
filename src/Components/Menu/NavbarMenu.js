@@ -92,7 +92,7 @@ const NavbarMenu = () => {
                },
                {
                 label:'School Uniform',
-                link:'/uniforn'
+                link:'/uniform'
                },
                {
                 label:'School Timing',
@@ -136,10 +136,7 @@ const NavbarMenu = () => {
                 label:'Events',
                 link:'/events'
                },
-               {
-                label:'Ashadi Ekadashi',
-                link:'/ashadi'
-               },
+              
                {
                 label:'Campus',
                 link:'/campus'

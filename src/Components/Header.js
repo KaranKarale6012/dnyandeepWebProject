@@ -1,9 +1,13 @@
 import React from 'react'
+import {link} from 'react-router-dom'
 import school_logo from '../Assets/school_logo.png'
 import board_logo from '../Assets/board_logo.png'
 import '../CSS/Header.css'
 function Header() {
   return (
+    <div>
+
+      <marquee> <a href='/contact'>For online addmission click here</a></marquee>
   
      <div className='header'>
       
@@ -19,7 +23,7 @@ function Header() {
          <img src={board_logo} />
         
      </div>
-   
+     </div>
   )
 }
 

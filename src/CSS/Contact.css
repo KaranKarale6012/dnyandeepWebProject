@@ -1,0 +1,89 @@
+.Contact .sub_contact{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+
+}
+.Contact .sub_contact .contact-left img{
+    width: 500px;
+}
+form {
+    padding: 2rem;
+}
+form input{
+    width: 600px;
+    height: 40px;
+    display: flex;
+    margin:2rem;
+    padding: 2rem;
+     box-shadow: 10px 10px 10px 10px rgb(230, 225, 225);
+     border: none;
+     border-radius: 20px;
+    
+
+}
+form textarea{
+    margin:0 2rem;
+    width: 600px;
+    height: 150px;
+    box-shadow: 10px 10px 10px 10px rgb(230, 225, 225);
+    border: none;
+    border-radius: 20px;
+    padding: 2rem;
+}
+form ::placeholder{
+    font-size: 17px;
+    text-align: left;
+}
+
+.Contact .application hr{
+    border-top: 4px solid #FC4F00;
+    width:70% ;
+    margin:2rem auto 1rem ;
+    border-radius: 15px;
+}
+.btn {
+    padding: 10px 25px;
+    border: none;
+    background-color: #FC4F00;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    margin: 2rem auto;
+    font-size: 1rem;
+
+}
+
+.application li{
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media (max-width:468px){
+    .Contact .sub_contact{
+        display: block;
+    }
+    .Contact .sub_contact .contact-left img{
+        width: 350px;
+    }
+    form {
+        padding: 0;
+    }
+    form input{
+        width: 350px;
+        display: flex;
+        margin:2rem 1rem;
+        padding: 12px;
+
+    }
+    form textarea{
+        margin:1rem 1rem;
+        width: 350px;
+        padding: 2rem;
+    }
+   
+}
+
+
+
