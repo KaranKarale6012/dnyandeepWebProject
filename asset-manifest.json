@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dnyandeepWebProject/static/css/main.830b3de0.css",
+    "main.js": "/dnyandeepWebProject/static/js/main.e409b593.js",
+    "static/js/787.e96d62aa.chunk.js": "/dnyandeepWebProject/static/js/787.e96d62aa.chunk.js",
+    "static/media/children.png": "/dnyandeepWebProject/static/media/children.a0cd64fff8abdd6ce9c3.png",
+    "static/media/Firstday.jpg": "/dnyandeepWebProject/static/media/Firstday.ccf17c0d0a344afbd046.jpg",
+    "static/media/school_logo.png": "/dnyandeepWebProject/static/media/school_logo.5d14f0bcb46c932df711.png",
+    "static/media/Mission-Vision-.png": "/dnyandeepWebProject/static/media/Mission-Vision-.5c9f55c0a1bd8c0939e8.png",
+    "static/media/board_logo.png": "/dnyandeepWebProject/static/media/board_logo.3877d64dd25e17906a73.png",
+    "static/media/about_school.jpg": "/dnyandeepWebProject/static/media/about_school.2bb794868892ad600e24.jpg",
+    "static/media/school.png": "/dnyandeepWebProject/static/media/school.94442213a370bb72b116.png",
+    "index.html": "/dnyandeepWebProject/index.html",
+    "main.830b3de0.css.map": "/dnyandeepWebProject/static/css/main.830b3de0.css.map",
+    "main.e409b593.js.map": "/dnyandeepWebProject/static/js/main.e409b593.js.map",
+    "787.e96d62aa.chunk.js.map": "/dnyandeepWebProject/static/js/787.e96d62aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.830b3de0.css",
+    "static/js/main.e409b593.js"
+  ]
+}
